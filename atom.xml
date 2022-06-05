@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://easyzoom.github.io</id>
+    <title>EASYZOOM</title>
+    <updated>2022-06-05T11:37:58.386Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://easyzoom.github.io"/>
+    <link rel="self" href="https://easyzoom.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://easyzoom.github.io/images/avatar.png</logo>
+    <icon>https://easyzoom.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, EASYZOOM</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello Guys]]></title>
+        <id>https://easyzoom.github.io/post/hello/</id>
+        <link href="https://easyzoom.github.io/post/hello/">
+        </link>
+        <updated>2022-06-05T10:22:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>EASYZOOMの空间</strong> ！<br>
+✍️ 我将用它来记录我的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>EASYZOOMの空间</strong> ！<br>
+✍️ 我将用它来记录我的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简单算法]]></title>
+        <id>https://easyzoom.github.io/post/jian-dan-suan-fa/</id>
+        <link href="https://easyzoom.github.io/post/jian-dan-suan-fa/">
+        </link>
+        <updated>2022-05-29T14:23:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[freertos]]></title>
+        <id>https://easyzoom.github.io/post/freertos/</id>
+        <link href="https://easyzoom.github.io/post/freertos/">
+        </link>
+        <updated>2022-05-29T14:22:40.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[whiptail指令]]></title>
+        <id>https://easyzoom.github.io/post/whiptail-zhi-ling/</id>
+        <link href="https://easyzoom.github.io/post/whiptail-zhi-ling/">
+        </link>
+        <updated>2022-05-29T13:56:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[补丁(patch)的制作与应用]]></title>
+        <id>https://easyzoom.github.io/post/bu-ding-patchde-zhi-zuo-yu-ying-yong/</id>
+        <link href="https://easyzoom.github.io/post/bu-ding-patchde-zhi-zuo-yu-ying-yong/">
+        </link>
+        <updated>2022-05-29T13:54:11.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Makefile]]></title>
+        <id>https://easyzoom.github.io/post/makefile/</id>
+        <link href="https://easyzoom.github.io/post/makefile/">
+        </link>
+        <updated>2022-05-04T04:50:46.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[qemu使用]]></title>
+        <id>https://easyzoom.github.io/post/qemu-shi-yong/</id>
+        <link href="https://easyzoom.github.io/post/qemu-shi-yong/">
+        </link>
+        <updated>2022-04-23T13:23:03.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux驱动开发]]></title>
+        <id>https://easyzoom.github.io/post/linux-qu-dong-kai-fa/</id>
+        <link href="https://easyzoom.github.io/post/linux-qu-dong-kai-fa/">
+        </link>
+        <updated>2022-04-23T13:22:26.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[overlayfs学习]]></title>
+        <id>https://easyzoom.github.io/post/overlayfs-xue-xi/</id>
+        <link href="https://easyzoom.github.io/post/overlayfs-xue-xi/">
+        </link>
+        <updated>2022-04-17T16:06:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LittleFs文件系统学习]]></title>
+        <id>https://easyzoom.github.io/post/littlefs-wen-jian-xi-tong-xue-xi/</id>
+        <link href="https://easyzoom.github.io/post/littlefs-wen-jian-xi-tong-xue-xi/">
+        </link>
+        <updated>2022-04-17T15:48:27.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remoteproc框架]]></title>
+        <id>https://easyzoom.github.io/post/remoteproc-kuang-jia/</id>
+        <link href="https://easyzoom.github.io/post/remoteproc-kuang-jia/">
+        </link>
+        <updated>2022-04-10T16:41:41.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RPMsg框架]]></title>
+        <id>https://easyzoom.github.io/post/rpmsg-xue-xi/</id>
+        <link href="https://easyzoom.github.io/post/rpmsg-xue-xi/">
+        </link>
+        <updated>2022-04-10T16:34:26.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gige协议]]></title>
+        <id>https://easyzoom.github.io/post/gige-xie-yi/</id>
+        <link href="https://easyzoom.github.io/post/gige-xie-yi/">
+        </link>
+        <updated>2022-04-10T16:33:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[视觉算法]]></title>
+        <id>https://easyzoom.github.io/post/shi-jue-suan-fa/</id>
+        <link href="https://easyzoom.github.io/post/shi-jue-suan-fa/">
+        </link>
+        <updated>2022-04-10T16:33:30.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROS开发]]></title>
+        <id>https://easyzoom.github.io/post/ros-kai-fa/</id>
+        <link href="https://easyzoom.github.io/post/ros-kai-fa/">
+        </link>
+        <updated>2022-04-10T16:33:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[排序算法]]></title>
+        <id>https://easyzoom.github.io/post/pai-xu-suan-fa/</id>
+        <link href="https://easyzoom.github.io/post/pai-xu-suan-fa/">
+        </link>
+        <updated>2022-04-10T16:14:37.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C语言]]></title>
+        <id>https://easyzoom.github.io/post/c-yu-yan/</id>
+        <link href="https://easyzoom.github.io/post/c-yu-yan/">
+        </link>
+        <updated>2022-04-10T15:46:18.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[51单片机]]></title>
+        <id>https://easyzoom.github.io/post/51-dan-pian-ji/</id>
+        <link href="https://easyzoom.github.io/post/51-dan-pian-ji/">
+        </link>
+        <updated>2022-04-10T15:43:27.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[共享内存实现]]></title>
+        <id>https://easyzoom.github.io/post/gong-xiang-nei-cun-shi-xian/</id>
+        <link href="https://easyzoom.github.io/post/gong-xiang-nei-cun-shi-xian/">
+        </link>
+        <updated>2022-04-10T15:13:35.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CMAKE]]></title>
+        <id>https://easyzoom.github.io/post/cmake/</id>
+        <link href="https://easyzoom.github.io/post/cmake/">
+        </link>
+        <updated>2022-04-06T16:48:50.000Z</updated>
+    </entry>
+</feed>
