@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Docker: VitePress 开发（up --build）",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml up --build",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {}
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: VitePress 开发（后台）",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml up --build -d",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: 停止（down）",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml down",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: 仅构建镜像",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: pnpm build（一次性容器）",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml run --build --rm site sh -c \"pnpm install --frozen-lockfile && pnpm build\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: 预览生产构建（4173）",
+      "type": "shell",
+      "command": "docker compose -f .docker/docker-compose.yml run --build --rm -p 4173:4173 site sh -c \"pnpm install --frozen-lockfile && pnpm build && pnpm exec vitepress preview docs --host 0.0.0.0 --port 4173\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
