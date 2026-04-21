@@ -15,7 +15,7 @@ tags:
 
 **C：** 上一篇我们介绍了 if 系列的选择结构语法，整体感受应该是简单易懂且易写的。本篇笔者再介绍一种选择结构语法：switch，但此 switch 非彼 switch。
 
-![202010071310906](../../../public/img/2020/10/07/202010071310906.png)
+![202010071310906](/img/2020/10/07/202010071310906.png)
 
 <!-- more -->
 
@@ -119,9 +119,9 @@ switch (score) {
 
 4. `switch` 的表达式支持的类型有：`int`、( `short`、 `byte`、`char` 可以自动类型转换为 `int`)，`枚举类型(Enum)` 、`String`（自JDK1.7开始，`switch` 支持了字符串的等值判断，参考[Oracle Java7 RELEASE介绍](https://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html)）。
 
-   ![202010071312989](../../../public/img/2020/10/07/202010071312989.png)
+   ![202010071312989](/img/2020/10/07/202010071312989.png)
 
-   ![202010071315171](../../../public/img/2020/10/07/202010071315171.png)
+   ![202010071315171](/img/2020/10/07/202010071315171.png)
 
 ## switch和if的对比
 

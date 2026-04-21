@@ -30,7 +30,7 @@ rpm -e --nodeps 软件名
 
 可前往 [官网](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html) 下载 JDK Linux 安装包然后上传到服务器。
 
-![202210231130566](../../../public/img/2022/10/23/202210231130566.png)
+![202210231130566](/img/2022/10/23/202210231130566.png)
 
 也可以直接在服务器内下载。
 

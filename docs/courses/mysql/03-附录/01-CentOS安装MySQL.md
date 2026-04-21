@@ -48,7 +48,7 @@ yum -y install libaio
 
 可前往 [官网](https://downloads.mysql.com/archives/community) 下载 MySQL Linux 安装包然后上传到服务器。
 
-![202210222130166](../../../public/img/2022/10/22/202210222130166.png)
+![202210222130166](/img/2022/10/22/202210222130166.png)
 
 也可以直接在服务器内下载。
 

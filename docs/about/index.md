@@ -5,7 +5,7 @@ editLink: false
 lastUpdated: false
 ---
 
-<img width=100% src="../public/img/svg/about-repos-header.svg" alt="头部图" />
+<img width=100% src="/img/svg/about-repos-header.svg" alt="头部图" />
 
 <div align="center">
     📝 <strong>EASYZOOM的个人技术知识库，记录 & 分享个人碎片化、结构化、体系化的技术知识内容。</strong>
@@ -52,4 +52,4 @@ lastUpdated: false
 
 杂乱的内容会引起笔者思绪上的混乱，被迫转移注意力，所以笔者尽可能的在各种方面定期进行整理、折腾，将知识整理好，不用再担心知识在记忆中遗忘，不用再担心掌握的知识无迹可寻，这样笔者就可以获得思绪上的梳理、 “放下”，可以更好的 “轻装前行”。:smile:
 
-<img width=100% src="../public/img/svg/about-footer.svg" alt="尾部图"/>
+<img width=100% src="/img/svg/about-footer.svg" alt="尾部图"/>

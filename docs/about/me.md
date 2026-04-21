@@ -6,7 +6,7 @@ lastUpdated: false
 showComment: false
 ---
 
-<img width=100% src="../public/img/svg/about-me-header.svg" alt="头部图" />
+<img width=100% src="/img/svg/about-me-header.svg" alt="头部图" />
 <p align="center">
   <a href="https://easyzoom.github.io/" target="_blank" style="display: inline-block;">
     <img alt="个人主页" src="https://img.shields.io/badge/知识库-EASYZOOM-lightblue?logo=blogger&logoColor=lightblue" />
@@ -97,4 +97,4 @@ showComment: false
 - 如果你只是路过，也欢迎把这里当成一个长期更新的个人技术备忘录来看。
 - 技术这件事，很多时候不是不会，而是过段时间就忘了。所以写下来、讲明白，本身就是一种再学习。
 
-<img width=100% src="../public/img/svg/about-footer.svg" alt="尾部图"/>
+<img width=100% src="/img/svg/about-footer.svg" alt="尾部图"/>
