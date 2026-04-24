@@ -211,6 +211,25 @@ mjx-container > svg {
 }
 
 /* ========================================================================
+   Mermaid: click-to-zoom hint
+   ======================================================================== */
+
+.vp-doc .mermaid[data-mzoom] {
+  cursor: zoom-in;
+  transition: filter 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 8px;
+}
+
+.vp-doc .mermaid[data-mzoom]:hover {
+  filter: brightness(0.97);
+  box-shadow: 0 0 0 2px var(--vp-c-brand-soft), 0 4px 16px rgba(99, 102, 241, 0.08);
+}
+
+html.dark .vp-doc .mermaid[data-mzoom]:hover {
+  filter: brightness(1.03);
+}
+
+/* ========================================================================
    Smooth page transitions
    ======================================================================== */
 

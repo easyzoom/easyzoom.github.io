@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue';
+import MermaidZoom from './components/MermaidZoom.vue';
 import './styles/vars.css';
 import './styles/custom.css';
 import axios from 'axios';
@@ -20,5 +21,8 @@ export default {
 
     // register your custom global components
     // ctx.app.component('MyGlobalComponent' /* ... */)
+  },
+  setup() {
+    // MermaidZoom 组件通过 MyLayout 中挂载
   }
 }
