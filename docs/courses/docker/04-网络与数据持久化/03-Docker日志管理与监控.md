@@ -46,8 +46,8 @@ docker compose logs --tail=50 db
 /var/lib/docker/containers/<容器ID>/<容器ID>-json.log
 
 # 查看单个容器日志文件大小
-docker inspect --format='{{.LogPath}}' <容器名>
-ls -lh $(docker inspect --format='{{.LogPath}}' <容器名>)
+docker inspect --format='{'{'}{.LogPath}'}' <容器名>
+ls -lh $(docker inspect --format='{'{'}{.LogPath}'}' <容器名>)
 ```
 
 ## 日志驱动
@@ -136,7 +136,7 @@ services:
       driver: fluentd
       options:
         fluentd-address: "localhost:24224"
-        tag: "app.{{.Name}}"
+        tag: "app.{'{'}{.Name}'}"
 
   fluentd:
     image: fluent/fluentd:v1.16

@@ -184,7 +184,7 @@ docker network connect backend-net gateway
 curl http://localhost:8080
 
 # 通过容器 IP（不推荐，IP 可能变化）
-docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' web
+docker inspect -f '{'{'}{range.NetworkSettings.Networks}'}{'{'}{.IPAddress}'}{'{'}{end}'}' web
 ```
 
 ## 网络排障

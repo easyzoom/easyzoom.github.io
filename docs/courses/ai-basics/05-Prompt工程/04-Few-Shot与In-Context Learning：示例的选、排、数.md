@@ -168,7 +168,7 @@ def select_diverse_examples(query, pool, k=3, lam=0.5):
 代码: if (p == NULL) { p->x = 1; }
 判断: 有风险（判断反了）     ← 难负例
 
-代码: {{ user_code }}
+代码: {'{'}{ user_code }'}
 判断:
 ```
 

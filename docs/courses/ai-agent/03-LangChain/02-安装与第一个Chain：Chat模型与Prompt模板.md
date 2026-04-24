@@ -192,7 +192,7 @@ prompt.invoke({"role":"运维","question":"..."})
 
 ```python
 ChatPromptTemplate.from_messages(
-    [("user", "hello {{name}}")],
+    [("user", "hello {'{'}{name}'}")],
     template_format="jinja2",
 )
 ```
